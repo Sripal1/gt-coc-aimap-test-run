@@ -1,0 +1,19 @@
+# University / department metadata
+university_name: "GT"
+department_name: "CoC"
+color_theme: "#2a7a72"
+
+# LLM configuration
+llm_provider: "openai"
+llm_api_key_env: "OPENAI_API_KEY"
+
+# Scraper settings
+researchers_file: "researchers.csv"
+scraper_max_threads: 10
+scraper_max_requests_per_ip: 10
+scraper_max_retries: 10
+chunk_size: 50
+
+# Pipeline settings
+profiles_dir: "Researcher_Profiles"
+output_dir: "pipeline-output"
